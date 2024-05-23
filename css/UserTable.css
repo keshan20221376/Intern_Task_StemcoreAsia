@@ -1,0 +1,45 @@
+.navigation button {
+  background-color: #4835d5;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px rgb(58, 58, 58);
+  font-size: large;
+  padding: 15px;
+  color: #dfdfdf;
+}
+.navigation {
+  padding: 20px 0px 0px 0px;
+}
+.card {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px 50px 30px;
+  margin: 20px;
+}
+.card caption {
+  color: #025d84;
+  padding: 0px 0px 10px 0px;
+  font-size: xx-large;
+}
+.btn-primary,
+.btn-danger {
+  font-weight: bold;
+  border-radius: 30px 30px 30px 30px;
+  margin: 3%;
+  border: none;
+}
+.btn-primary {
+  background-color: rgb(225, 225, 225);
+}
+.btn-danger {
+  background-color: rgb(225, 225, 225);
+}
+.edit img {
+  filter: invert(29%) sepia(91%) saturate(3377%) hue-rotate(182deg)
+    brightness(106%) contrast(106%);
+}
+.delete img {
+  filter: invert(21%) sepia(99%) saturate(7482%) hue-rotate(343deg)
+    brightness(94%) contrast(108%);
+}

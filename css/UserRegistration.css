@@ -1,0 +1,80 @@
+/* edit the the card*/
+.card {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px 50px 30px;
+  margin: 20px;
+}
+/* edit the form (generally) */
+.form-control,
+.form-select {
+  border: none;
+  border-bottom: 1px solid silver;
+  border-radius: 0%;
+}
+/* edit the Contact details card */
+#contact-card {
+  background-color: #4835d5;
+  text-decoration: white;
+}
+
+/* edit contact details */
+#contact-card .form-control,
+#contact-card .form-select {
+  background-color: #4835d5;
+  text-decoration-color: #ffffff;
+}
+
+#contact-card .card-title, /* edit the title of general details */
+.form-check-label {
+  color: #dfdfdf;
+}
+#contact-card .card-title {
+  padding: 0px 0px 50px 0px;
+}
+#contact-card ::placeholder,
+#contact-card input {
+  color: #dfdfdf;
+  opacity: 1;
+}
+#contact-card .form-select {
+  color: #dfdfdf;
+}
+#contact-card button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 10px rgb(58, 58, 58);
+  text-decoration: none;
+}
+/* edit general details */
+#general-card .card-title {
+  color: #025d84;
+  padding: 0px 0px 50px 0px;
+}
+#general-card ::placeholder,
+#general-card input {
+  color: #357690;
+  opacity: 1;
+}
+#general-card {
+  background-color: white;
+}
+#general-card .form-select,
+#general-card .form-control {
+  color: #357690;
+  background-color: white;
+}
+#general-card .input-group-text {
+  color: #357690;
+  background-color: white;
+  border: none;
+}
+.error {
+  color: rgb(209, 119, 119);
+}
+#contact-card .userbtn {
+  text-decoration: none;
+}
